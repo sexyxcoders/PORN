@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 DS_API_ID = int(environ.get("DS_API_ID", "21134445"))
 DS_API_HASH = environ.get("DS_API_HASH", "231c18ea7273824491d6bf05425ab74e")
-DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "7868730175:AAEc6lKCHnROOYlN5go8OOiVOYSAyvAwEb0")
+DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "AdultxPornBot") # bot username without @
 DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1002287964531"))
 DS_STICKER = environ.get("DS_STICKER", "")
