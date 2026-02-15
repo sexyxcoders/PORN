@@ -9,13 +9,13 @@ DS_API_ID = int(environ.get("DS_API_ID", "21134445"))
 DS_API_HASH = environ.get("DS_API_HASH", "231c18ea7273824491d6bf05425ab74e")
 DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "8455132833:AAEjGo7DV-uL74cKsglbOblOr6mukCxNgWM")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "NexCornbot") # bot username without @
-DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1003872865551"))
+DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1003636017177"))
 DS_STICKER = environ.get("DS_STICKER", "")
 DS_PIC = environ.get('DS_PIC', 'https://envs.sh/k-.jpg/HGBOTZ.jpg')
 
 # Database Channel For Text Or Caption Store 
-DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", "-1003709830908"))
-DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", "-1003411334128"))
+DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", "-1003636017177"))
+DS_VIDESI_FILE_CHANNEL = int(environ.get("DS_VIDESI_FILE_CHANNEL", "-1003636017177"))
 FREE_LIMIT_DESI = 5
 FREE_LIMIT_VIDESI = 3
 PREMIUM_LIMIT_DESI = 40
