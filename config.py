@@ -34,7 +34,7 @@ DS_DB_URI = environ.get("DS_DB_URI", "mongodb+srv://StarGiftBot_db_user:gld1RLm4
 DS_DB_NAME = environ.get("DS_DB_NAME", "susant-botz")
 
 # Force subscribe channel 
-DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1003574527521')) # give your force subscribe channel id here else leave it blank
+DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1003636017177')) # give your force subscribe channel id here else leave it blank
 
 # Verification Variables
 DS_API = environ.get("DS_API", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink api
